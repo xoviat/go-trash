@@ -25,7 +25,7 @@ func MoveToTrash(filePath string) (string, error) {
 		WFunc:                 FO_DELETE,
 		PFrom:                 DoubleNullTerminatedUTF16PtrFromString(filePath),
 		PTo:                   nil,
-		FFlags:                win.FOF_ALLOWUNDO | win.FOF_NOCONFIRMATION | win.FOF_NOERRORUI | win.FOF_SILENT,
+		FFlags:                FOF_ALLOWUNDO | FOF_NOCONFIRMATION | FOF_NOERRORUI | FOF_SILENT,
 		FAnyOperationsAborted: win.BOOL(0),
 		HNameMappings:         0,
 		LpszProgressTitle:     DoubleNullTerminatedUTF16PtrFromString(""), // Note: double-null termination not required

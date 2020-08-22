@@ -4,7 +4,7 @@ go-trash is a cross-platform package to move files to trash. OSX, Windows and Li
 
 # Installing
 
-    go get https://github.com/laurent22/go-trash
+    go get https://github.com/xoviat/go-trash
     
 # Building
 
@@ -14,7 +14,7 @@ go-trash is a cross-platform package to move files to trash. OSX, Windows and Li
 
 # Documentation
 
-http://godoc.org/github.com/laurent22/go-trash
+http://godoc.org/github.com/xoviat/go-trash
 
 # License
 
